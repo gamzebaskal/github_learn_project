@@ -12,6 +12,9 @@ Proje özellikleri
     Go back to the Source page.
     Create a file
     Next, you’ll add a new file to this repository.
+    `
+    git clone https://github.com/gamzebaskal/bot_nycwebb1
+    `
 
 Proje Bağımlılıkları
     1- requests modülü
