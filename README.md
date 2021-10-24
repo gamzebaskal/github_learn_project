@@ -1,4 +1,4 @@
-BOT NYCWEBB1 
+<b>BOT NYCWEBB1<b/> 
 
 Projenin amacı
     Bu proje bulmaca severlerin günlük olarak ipuçlarını web sitesine bağlanmadan görüntüleyip, geçmişe dönük ipuçlarını da kayıt edebilmelerini sağlar.
