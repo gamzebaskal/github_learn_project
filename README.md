@@ -14,7 +14,7 @@ sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen do
 
 2) Bilgisayarınızda python sanal ortamı oluşturun.
 
-    ```python -m virtualenv venv```
+    python -m virtualenv venv
 
 3) Sanal ortamı aktif edin.
     
@@ -23,3 +23,5 @@ sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen do
 4) Daha sonra bağımlılıkları yükleyin.
 
     python -m pip install -r requirements.txt
+
+    mulieaklie
