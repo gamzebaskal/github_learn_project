@@ -7,7 +7,7 @@
     bot_nycwebb1 projesi, https://www.nytimes.com/crosswords/game/mini adresindeki bulmacaların ipuçları bölümlerini günlük olarak almaya ve json olarak kaydetmeyi 
 sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen dosyayı günceller.
 
-<b>Nasıl Kurulur?</b>
+<b>Nasıl Kurulur?</b><br/>
 Öncelikle projeyi aşağıdaki komut ile bilgisayarınıza indirmelisiniz.
 
     git clone https://github.com/gamzebaskal/bot_nycwebb1
