@@ -14,7 +14,7 @@ sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen do
 
 2) Bilgisayarınızda python sanal ortamı oluşturun.
 
-    <pre>python -m virtualenv venv</pre>
+    ```python -m virtualenv venv```
 
 3) Sanal ortamı aktif edin.
     
