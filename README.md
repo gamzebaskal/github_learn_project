@@ -13,7 +13,7 @@ sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen do
     git clone https://github.com/gamzebaskal/bot_nycwebb1
 
 2) Bilgisayarınızda python sanal ortamı oluşturun.
-    
+
     python -m virtualenv venv
 
 3) Sanal ortamı aktif edin.
