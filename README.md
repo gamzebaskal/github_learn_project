@@ -8,6 +8,18 @@
 sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen dosyayı günceller.
 
 <b>Nasıl Kurulur?</b>
-    Öncelikle projeyi aşağıdaki komut ile bilgisayarınıza indirmelisiniz.
+Öncelikle projeyi aşağıdaki komut ile bilgisayarınıza indirmelisiniz.
 
     git clone https://github.com/gamzebaskal/bot_nycwebb1
+
+Bilgisayarınızda python sanal ortamı oluşturun.
+
+    python -m virtualenv venv
+
+Sanal ortamı aktif edin.
+    
+    venv\Scripts\activate.bat
+
+Daha sonra bağımlılıkları yükleyin.
+
+    python -m pip install -r requirements.txt
