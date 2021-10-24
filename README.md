@@ -8,7 +8,7 @@
 sağlar. Program her çalıştırıldığında yeni verileri alıp kaydedilen dosyayı günceller.
 
 <b>Nasıl Kurulur?</b>
-1) Öncelikle projeyi aşağıdaki komut ile bilgisayarınıza indirmelisiniz.
+Öncelikle projeyi aşağıdaki komut ile bilgisayarınıza indirmelisiniz.
 
     git clone https://github.com/gamzebaskal/bot_nycwebb1
 
