@@ -1,7 +1,8 @@
-import requests
-from bs4 import BeautifulSoup
 import logging
 import json
+
+import requests
+from bs4 import BeautifulSoup
 
 logging.basicConfig(filename='logs.log', filemode='a', format="%(asctime)s %(message)s",
                     encoding='utf-8', level=logging.DEBUG)
@@ -35,6 +36,29 @@ for i in selected_items:
                                "Number": number.text,
                                "String": txt.text})
 
+def update_json(data, file, key="clue"):
+    """
+    Verilen json dosyadaki, istenilen anahtarın değerini, liste olarak gönderilen verileri ekleyerek günceller.
+    :param data: Json dosyaya eklenecek verilerin listesi.
+    :param file: Eklemenin yapılacağı json dosya.
+    :param key: Json dosyasındaki güncelleme yapılmak istenen anahtar.
+    :return: Geriye değer döndürmez.
+    """
+    file_data = json.load(file)
+
+    file_data[key].extend(data)
+    file.seek(0)
+    json.dump(file_data, file, indent=4)
+
+
+try:
+    with open("clue.json", "r+") as f:
+        update_json(clue["clue"], f)
+
+except FileNotFoundError as e:
+    logging.error(e)
+    with open("clue.json", "w") as f:
+        json.dump(clue, f, indent=4)
+
 print(text)
-with open("clues.json", "a") as f:
-    print(json.dumps(clues), file=f)
+
