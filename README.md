@@ -34,3 +34,18 @@ Daha sonra bağımlılıkları yükleyin.
     Temel olarak IP bloklanmasının önüne geçmek için önlemler alınmış olsa da yine de eser miktarda kullanmakta fayda var.
 
 # <b>Proje Özellikleri</b><br/>
+
+
+# <b>Nasıl Çalıştırılır?</b><br/>
+Uygulama iki farklı şekilde çalıştırılabilir:
+    <b>Varsayılan Ayarlar İle</b> 
+        Settings.py dosyası içerisindeki DEFAULT_PAGE_URL, DEFAULT_USERNAME, DEFAULT_PASSWORD değişkenleri ayarlanmalıdır.
+        Örneğin; 
+            DEFAULT_PAGE_URL = "https://www.facebook.com/besiktasbelediyesi"
+            DEFAULT_USERNAME = "{facebook_kullanici_adiniz}"
+            DEFAULT_PASSWORD = "{facebook_sifreniz}"
+    <b>Konsol İle</b> 
+        Uygulama çalıştırılırken, konsol üzerinden gerekli parametreler gönderilmelidir. python main.py -p <facebook_sayfa_adresi> -m <post_tarihi>
+        Örneğin;
+
+            python main.py -p "https://www.facebook.com/besiktasbelediyesi" -m 2021-10
