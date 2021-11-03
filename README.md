@@ -43,7 +43,7 @@ Uygulama iki farklı şekilde çalıştırılabilir:<br/>
         Örneğin;<br/>
             DEFAULT_PAGE_URL = "https://www.facebook.com/besiktasbelediyesi"
             DEFAULT_USERNAME = "{facebook_kullanici_adiniz}"
-            DEFAULT_PASSWORD = "{facebook_sifreniz}"
+            DEFAULT_PASSWORD = "{facebook_sifreniz}"<br/>
     <b>Konsol İle</b><br/>
         Uygulama çalıştırılırken, konsol üzerinden gerekli parametreler gönderilmelidir. python main.py -p {facebook_sayfa_adresi} -m {post_tarihi} <br/>
         Örneğin;<br/>
